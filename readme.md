@@ -1,27 +1,16 @@
-# Resistance Calculator with GUI
+# Resistance Calculator Application
 
-## Overview
-This Python application calculates the total resistance for resistors connected in **series** or **parallel**. It uses **Object-Oriented Programming (OOP)** concepts to represent resistors and resistor networks, while a **Tkinter GUI** provides a user-friendly interface.
+## Project Overview
 
-## Features
-- Add resistors and see the list of added resistors in real-time.
-- Calculate the total resistance for resistors in **series** or **parallel**.
-- Clear all resistors and start a new calculation.
-- Interactive GUI built with Tkinter.
+The **Resistance Calculator** is a Python application that allows users to calculate the total resistance for resistors connected in **series** or **parallel**. The program uses **Object-Oriented Programming (OOP)** principles and provides a **Graphical User Interface (GUI)** using Tkinter to facilitate user interaction.
 
-## OOP Concepts Used
-- **Encapsulation:** Each resistor is represented as an object with encapsulated resistance data.
-- **Modularity:** The application is divided into classes (`Resistor`, `ResistorNetwork`, `ResistanceCalculatorApp`), each handling specific tasks.
-- **Abstraction:** Users interact with a simple GUI that hides the complexity of resistor calculations.
-- **Reusability:** Classes are designed to be reusable in other resistor-related projects.
+Users can:
+- Add resistor values to the list.
+- View the total resistance in either a **series** or **parallel** configuration.
+- Clear all resistors and reset the calculation.
 
-## How to Run
-1. Enter resistor values in the input field.
-2. Add resistors to the network using the "Add Resistor" button.
-3. Calculate the total resistance in series or parallel.
-4. Clear the list of resistors to reset the network.
-
-## Classes
-- **Resistor**: Represents an individual resistor.
-- **ResistorNetwork**: Manages multiple resistors and calculates total resistance.
-- **ResistanceCalculatorApp**: Handles the GUI and user interaction.
+### Features:
+- **Object-Oriented Design**: Classes encapsulate resistors and resistor networks.
+- **GUI**: User-friendly interface built with Tkinter.
+- **Series and Parallel Resistance Calculations**: The app supports calculations for both configurations.
+- **Resistor List Display**: A live list of added resistors is shown in the GUI.
